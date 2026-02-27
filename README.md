@@ -1,0 +1,3 @@
+# QA Portfolio Overview for ReqRes
+
+The QA Portfolio for ReqRes showcases various testing strategies and methodologies applied to ensure the quality of the ReqRes API. This includes comprehensive test plans, test cases, bug reports, and automation strategies implemented using tools like Mocha, Chai, and Supertest. This portfolio serves as a demonstration of my testing approach and capabilities in a real-world API scenario.
