@@ -1,0 +1,9 @@
+id,title,priority,type,preconditions,steps,expected_result
+API-001,GET users list (page=1) returns 200 and expected structure,High,API,API available,1) Send GET /api/users?page=1,200 OK and response contains page/per_page/total/data(array)
+API-002,GET single user (existing id=2) returns 200 and user object,High,API,API available,1) Send GET /api/users/2,200 OK and response contains data.id=2
+API-003,GET single user (non-existing id=999) returns 404,High,API,API available,1) Send GET /api/users/999,404 Not Found
+API-004,POST create user returns 201 and contains id & createdAt,High,API,API available,1) Send POST /api/users with name+job,201 Created and response contains name/job/id/createdAt
+AUTH-001,Register success returns token,High,API,API available,1) POST /api/register with valid email+password,200 OK and response contains token
+AUTH-002,Register missing password returns 400 with error,High,API,API available,1) POST /api/register with email only,400 Bad Request and response contains error
+AUTH-003,Login success returns token,High,API,API available,1) POST /api/login with valid email+password,200 OK and response contains token
+AUTH-004,Login missing password returns 400 with error,High,API,API available,1) POST /api/login with email only,400 Bad Request and response contains error
