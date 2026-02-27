@@ -1,3 +1,5 @@
+[![API Tests](https://github.com/BrYassine98/qa-api-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/BrYassine98/qa-api-portfolio/actions/workflows/api-tests.yml)
+
 # QA API Portfolio — ReqRes (Manual) + JSONPlaceholder (CI Automation)
 
 This repository demonstrates my QA workflow for a backend/API product:
