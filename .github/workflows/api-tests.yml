@@ -1,4 +1,4 @@
-name: API Tests (ReqRes)
+name: API Tests (Public API)
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
       - name: Run tests
         run: npm test
         env:
-          BASE_URL: https://reqres.in
+          BASE_URL: https://jsonplaceholder.typicode.com
